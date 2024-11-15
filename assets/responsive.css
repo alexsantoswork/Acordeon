@@ -1,0 +1,37 @@
+@media(max-width: 550px) {
+
+    
+    .container {
+        height: 100%;
+    }
+    .card {
+        margin-top: 7em;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+    
+    .question {
+        font-size: 0.9em;
+        margin: 0em 3em 0em 0em;
+        padding-bottom: 1em;
+    }
+
+    .appear {
+        height: 10em;
+        padding: 1em 0em;
+    }
+}
+
+@media(min-width: 1441px) {
+
+    .container {
+        background-size: 100%;
+        height: 18em;
+    }
+
+    .card {
+        margin-top: 25em;
+    }
+}

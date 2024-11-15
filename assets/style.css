@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: hsl(292, 42%, 14%);
+}
+
+.container {
+    background-image: url(./images/background-pattern-desktop.svg);
+    background-color: hsl(275, 100%, 97%);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.card {
+    border-radius: 0.7em;
+    margin: 1em;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 35em;
+    padding: 2em;
+}
+
+.card-title {
+    display: flex;
+    margin-bottom: 1em;   
+}
+
+.star {
+    margin-right: 1em;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+.doubts {
+    margin-bottom: 0.5em;
+}
+
+.checked {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 0.3em;
+}
+
+.plus-four, .plus-tree, .plus-two, .plus-one {
+    position: absolute;
+}
+.minus-four, .minus-tree, .minus-two, .minus-one {
+    visibility: hidden;
+}
+
+.minus-four-open, .minus-tree-open, .minus-two-open, .minus-one-open {
+    visibility: visible;
+    z-index: 999;
+}
+
+.fa-solid {
+    font-size: 1.5em;
+    color: rgb(183, 43, 226);
+}
+
+.clicked {
+    color: hsl(292, 42%, 14%);
+}
+
+.question {
+    font-size: 0.9em;
+    height: 0em; 
+}
+
+.response {
+    font-size: 0.8em;
+    color: hsl(292, 16%, 49%);
+    visibility: hidden;
+}
+
+ .appear {
+    visibility: visible;
+    height: 3.7em;
+    padding-bottom: 5em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(292, 16%, 49%);
+}
