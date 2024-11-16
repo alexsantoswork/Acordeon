@@ -1,11 +1,7 @@
 @media(max-width: 550px) {
 
     .container {
-        height: 100%;
-    }
-    
-    .card {
-        margin-top: 7em;
+        height: 120vh;
     }
 
     .title {
