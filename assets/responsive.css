@@ -3,9 +3,11 @@
     
     .container {
         height: 100%;
+        position: relative;
     }
     .card {
-        margin-top: 11em;
+        position: relative;
+        top: 11em;        
     }
 
     .title {
